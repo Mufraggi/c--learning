@@ -1,7 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 var assembly = typeof(Program).Assembly;
 
-builder.Services.AddCarter(null,);
+builder.Services.AddCarter();
 builder.Services.AddMediatR(config =>
 {
     config.RegisterServicesFromAssembly(assembly);
