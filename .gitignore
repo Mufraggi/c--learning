@@ -1,0 +1,41 @@
+# Build Folders
+bin/
+obj/
+out/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+*.user
+*.suo
+*.sln.docstates
+*.VC.db
+.vs/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Dependencies
+node_modules/
+bower_components/
+
+# Logs & Debugging
+*.log
+*.tlog
+*.cache
+*.pdb
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Rider
+.idea/
+*.sln.iml
+
+# Resharper
+*.DotSettings.user
